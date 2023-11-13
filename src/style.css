@@ -1,0 +1,127 @@
+.homepage-bg {
+  background-color: rgba(31, 134, 239, 0.1);
+}
+
+.user {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+/* 
+
+d-flex justify-content-center align-items-center
+
+ */
+
+/* #10C0E7  */
+
+.page2-box:hover {
+  border-color: #10c0e7;
+}
+.page2-box {
+  border-radius: 15px;
+}
+
+.slide-track {
+  display: inline-block;
+  animation: move 20s linear infinite;
+  white-space: nowrap;
+}
+
+.slide-track > * {
+  padding: 2vw;
+  display: inline-block;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.circle-img {
+  border-radius: 50%;
+}
+
+.footers a {
+  color: #696969;
+}
+.footers p {
+  color: #696969;
+}
+.footers ul {
+  line-height: 30px;
+}
+#social-fb:hover {
+  color: #3b5998;
+  transition: all 0.001s;
+}
+#social-tw:hover {
+  color: #4099ff;
+  transition: all 0.001s;
+}
+#social-gp:hover {
+  color: #d34836;
+  transition: all 0.001s;
+}
+#social-em:hover {
+  color: #f39c12;
+  transition: all 0.001s;
+}
+
+.app-icons {
+  display: flex;
+  align-items: center;
+}
+.vertical {
+  width: 300px;
+  flex-direction: column;
+}
+
+.android {
+  width: 150px;
+}
+.apple {
+  width: 164px;
+}
+
+.mobile-bg {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  background-color: #f3e3d8;
+}
+
+@media (max-width: 767px) {
+  .mobile-bg {
+    display: none;
+  }
+  .display-block-mv {
+    display: none;
+  }
+
+  .mobile-view-txtheading {
+    font-size: 26px;
+  }
+  .mobile-view-txt {
+    font-size: medium;
+  }
+  .mobile-card-txt {
+    font-size: 18px;
+  }
+}
+
+/* .filter-bg {
+  background-image: url(https://www.securemyscholarship.com/blog/wp-content/uploads/2022/11/modern-tradtional-universities-in-the-uk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur("80%");
+}
+
+.overlay {
+  background-color: rgba(56, 58, 60, 0.7);
+} */
